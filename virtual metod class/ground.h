@@ -5,7 +5,7 @@ using namespace std;
 
 class Ground : public Info {
 protected:
-	int amount_grass;
+	int amount_ground;
 
 public:
 	void Print() {

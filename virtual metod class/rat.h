@@ -6,12 +6,12 @@ using namespace std;
 class Rat : public Info {
 protected:
 	int year;
-	int amount_rabbit;
+	int amount_rat;
 
 public:
 	Rat() {
 		year = 0;
-		amount_rabbit = 0;
+		amount_rat = 0;
 	}
 
 	Rat(int y, const char* n, const char* p) : Info(n, p) {

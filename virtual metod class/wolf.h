@@ -7,12 +7,12 @@ using namespace std;
 class Wolf : public Info {
 protected:
 	int year;
-	int amount_fox;
+	int amount_wolf;
 
 public:
 	Wolf() {
 		year = 0;
-		amount_fox = 0;
+		amount_wolf = 0;
 	}
 
 	Wolf(int y, const char* n, const char* p) : Info(n, p) {
